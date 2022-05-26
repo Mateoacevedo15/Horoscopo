@@ -199,7 +199,7 @@ public class formhoroscop extends javax.swing.JFrame {
         int dia=Integer.parseInt(txtdia.getText());
         String mes=(String)mescombox.getSelectedItem();
 
-        if(dia>=21 && mes.equals("Marzo") ||dia<=20 && mes.equals("Abril")) {
+        if(dia>=21 && mes.equals("Marzo") || dia<=20 && mes.equals("Abril")) {
             resultado.setText("Aries");
         }else if(dia>=21 && mes.equals("Abril") || dia<=20 && mes.equals("Mayo")){
             resultado.setText("Tauro"); 
